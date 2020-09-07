@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author julia
+ * @author Juliana Mora - Yeferson Benavides
  */
 public class ClienteMain {
 

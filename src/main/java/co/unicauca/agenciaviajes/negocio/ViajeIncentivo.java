@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  *
- * @author julia
+ * @author Juliana Mora - Yeferson Benavides
  */
 public class ViajeIncentivo extends Viaje {
 
@@ -15,11 +15,7 @@ public class ViajeIncentivo extends Viaje {
     
     //Constructor, getters and setters
     public ViajeIncentivo(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada, String empresa) {
-        this.origen = origen;
-        this.destino = destino;
-        this.costo = costo;
-        this.fechaSalida = fechaSalida;
-        this.fechaLlegada = fechaLlegada;
+        super(origen, destino, costo, fechaSalida, fechaLlegada);
         this.empresa = empresa;
     }
     

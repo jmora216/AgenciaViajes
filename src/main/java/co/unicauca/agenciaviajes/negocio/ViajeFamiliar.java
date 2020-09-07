@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  *
- * @author Juliana
+ * @author Juliana Mora - Yeferson Benavides
  */
 public class ViajeFamiliar extends Viaje {
 
@@ -15,11 +15,7 @@ public class ViajeFamiliar extends Viaje {
     
     //Constructor getters and setters
     public ViajeFamiliar(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada, int familia) {
-        this.origen = origen;
-        this.destino = destino;
-        this.costo = costo;
-        this.fechaSalida = fechaSalida;
-        this.fechaLlegada = fechaLlegada;
+        super(origen, destino, costo, fechaSalida, fechaLlegada);
         this.familia = familia;
     }
     

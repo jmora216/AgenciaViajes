@@ -4,17 +4,13 @@ import java.util.Date;
 
 /**
  *
- * @author julia
+ * @author Juliana Mora - Yeferson Benavides
  */
 public class ViajeTodoIncluido extends Viaje {
     
     // Constructores
     public ViajeTodoIncluido(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada) {
-        this.origen = origen;
-        this.destino = destino;
-        this.costo = costo;
-        this.fechaSalida = fechaSalida;
-        this.fechaLlegada = fechaLlegada;
+        super(origen, destino, costo, fechaSalida, fechaLlegada);
     }
 
     @Override

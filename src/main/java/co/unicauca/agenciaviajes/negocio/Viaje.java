@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  *
- * @author Juliana
+ * @author Juliana Mora - Yeferson Benavides
  */
 public abstract class Viaje {
 
